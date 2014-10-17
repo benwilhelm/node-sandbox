@@ -1,0 +1,18 @@
+{
+  "name": "express-sandbox",
+  "version": "0.0.0",
+  "description": "A place to mess with express",
+  "main": "server.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "author": "Ben Wilhelm <ben@doublebeamdesign.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.9.0",
+    "express": "^4.9.7",
+    "hbs": "^2.7.0",
+    "mdblurb": "git://github.com/benwilhelm/node-mdblurb",
+    "mongoose": "^3.8.17"
+  }
+}

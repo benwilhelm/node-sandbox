@@ -1,0 +1,148 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/bwilhelm/.nvm/v0.10.29/bin/node',
+1 verbose cli   '/Users/bwilhelm/.nvm/v0.10.29/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'jsonencoded',
+1 verbose cli   'urlencoded',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.14
+3 info using node@v0.10.29
+4 warn package.json express-sandbox@0.0.0 No repository field.
+5 warn package.json express-sandbox@0.0.0 No README data
+6 warn package.json mdblurb@0.1.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'jsonencoded', null ]
+9 verbose cache add name=undefined spec="jsonencoded" args=["jsonencoded",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'jsonencoded',
+10 verbose parsed url   path: 'jsonencoded',
+10 verbose parsed url   href: 'jsonencoded' }
+11 verbose cache add [ 'urlencoded', null ]
+12 verbose cache add name=undefined spec="urlencoded" args=["urlencoded",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'urlencoded',
+13 verbose parsed url   path: 'urlencoded',
+13 verbose parsed url   href: 'urlencoded' }
+14 silly lockFile d37df8a2-jsonencoded jsonencoded
+15 verbose lock jsonencoded /Users/bwilhelm/.npm/d37df8a2-jsonencoded.lock
+16 silly lockFile b4dc94eb-urlencoded urlencoded
+17 verbose lock urlencoded /Users/bwilhelm/.npm/b4dc94eb-urlencoded.lock
+18 silly lockFile d37df8a2-jsonencoded jsonencoded
+19 silly lockFile d37df8a2-jsonencoded jsonencoded
+20 silly lockFile b4dc94eb-urlencoded urlencoded
+21 silly lockFile b4dc94eb-urlencoded urlencoded
+22 verbose addNamed [ 'jsonencoded', '' ]
+23 verbose addNamed [ null, '*' ]
+24 silly lockFile c4ee1e4b-jsonencoded jsonencoded@
+25 verbose lock jsonencoded@ /Users/bwilhelm/.npm/c4ee1e4b-jsonencoded.lock
+26 verbose addNamed [ 'urlencoded', '' ]
+27 verbose addNamed [ null, '*' ]
+28 silly lockFile 930de895-urlencoded urlencoded@
+29 verbose lock urlencoded@ /Users/bwilhelm/.npm/930de895-urlencoded.lock
+30 silly addNameRange { name: 'jsonencoded', range: '*', hasData: false }
+31 verbose url raw jsonencoded
+32 verbose url resolving [ 'https://registry.npmjs.org/', './jsonencoded' ]
+33 verbose url resolved https://registry.npmjs.org/jsonencoded
+34 info trying registry request attempt 1 at 14:16:18
+35 http GET https://registry.npmjs.org/jsonencoded
+36 silly addNameRange { name: 'urlencoded', range: '*', hasData: false }
+37 verbose url raw urlencoded
+38 verbose url resolving [ 'https://registry.npmjs.org/', './urlencoded' ]
+39 verbose url resolved https://registry.npmjs.org/urlencoded
+40 info trying registry request attempt 1 at 14:16:18
+41 http GET https://registry.npmjs.org/urlencoded
+42 http 404 https://registry.npmjs.org/urlencoded
+43 verbose headers { date: 'Fri, 17 Oct 2014 19:16:19 GMT',
+43 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+43 verbose headers   'content-type': 'application/json',
+43 verbose headers   'cache-control': 'max-age=0',
+43 verbose headers   'content-length': '52',
+43 verbose headers   'accept-ranges': 'bytes',
+43 verbose headers   via: '1.1 varnish',
+43 verbose headers   age: '0',
+43 verbose headers   'x-served-by': 'cache-ord1721-ORD',
+43 verbose headers   'x-cache': 'MISS',
+43 verbose headers   'x-cache-hits': '0',
+43 verbose headers   'x-timer': 'S1413573379.021990,VS0,VE31',
+43 verbose headers   'keep-alive': 'timeout=10, max=50',
+43 verbose headers   connection: 'Keep-Alive' }
+44 silly registry.get cb [ 404,
+44 silly registry.get   { date: 'Fri, 17 Oct 2014 19:16:19 GMT',
+44 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+44 silly registry.get     'content-type': 'application/json',
+44 silly registry.get     'cache-control': 'max-age=0',
+44 silly registry.get     'content-length': '52',
+44 silly registry.get     'accept-ranges': 'bytes',
+44 silly registry.get     via: '1.1 varnish',
+44 silly registry.get     age: '0',
+44 silly registry.get     'x-served-by': 'cache-ord1721-ORD',
+44 silly registry.get     'x-cache': 'MISS',
+44 silly registry.get     'x-cache-hits': '0',
+44 silly registry.get     'x-timer': 'S1413573379.021990,VS0,VE31',
+44 silly registry.get     'keep-alive': 'timeout=10, max=50',
+44 silly registry.get     connection: 'Keep-Alive' } ]
+45 silly lockFile 930de895-urlencoded urlencoded@
+46 silly lockFile 930de895-urlencoded urlencoded@
+47 http 404 https://registry.npmjs.org/jsonencoded
+48 verbose headers { date: 'Fri, 17 Oct 2014 19:16:19 GMT',
+48 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+48 verbose headers   'content-type': 'application/json',
+48 verbose headers   'cache-control': 'max-age=0',
+48 verbose headers   'content-length': '52',
+48 verbose headers   'accept-ranges': 'bytes',
+48 verbose headers   via: '1.1 varnish',
+48 verbose headers   age: '0',
+48 verbose headers   'x-served-by': 'cache-ord1722-ORD',
+48 verbose headers   'x-cache': 'MISS',
+48 verbose headers   'x-cache-hits': '0',
+48 verbose headers   'x-timer': 'S1413573379.010000,VS0,VE64',
+48 verbose headers   'keep-alive': 'timeout=10, max=50',
+48 verbose headers   connection: 'Keep-Alive' }
+49 silly registry.get cb [ 404,
+49 silly registry.get   { date: 'Fri, 17 Oct 2014 19:16:19 GMT',
+49 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+49 silly registry.get     'content-type': 'application/json',
+49 silly registry.get     'cache-control': 'max-age=0',
+49 silly registry.get     'content-length': '52',
+49 silly registry.get     'accept-ranges': 'bytes',
+49 silly registry.get     via: '1.1 varnish',
+49 silly registry.get     age: '0',
+49 silly registry.get     'x-served-by': 'cache-ord1722-ORD',
+49 silly registry.get     'x-cache': 'MISS',
+49 silly registry.get     'x-cache-hits': '0',
+49 silly registry.get     'x-timer': 'S1413573379.010000,VS0,VE64',
+49 silly registry.get     'keep-alive': 'timeout=10, max=50',
+49 silly registry.get     connection: 'Keep-Alive' } ]
+50 silly lockFile c4ee1e4b-jsonencoded jsonencoded@
+51 silly lockFile c4ee1e4b-jsonencoded jsonencoded@
+52 error 404 404 Not Found: urlencoded
+52 error 404
+52 error 404 'urlencoded' is not in the npm registry.
+52 error 404 You should bug the author to publish it
+52 error 404 It was specified as a dependency of 'express-sandbox'
+52 error 404
+52 error 404 Note that you can also install from a
+52 error 404 tarball, folder, or http url, or git url.
+53 error System Darwin 13.4.0
+54 error command "/Users/bwilhelm/.nvm/v0.10.29/bin/node" "/Users/bwilhelm/.nvm/v0.10.29/bin/npm" "install" "jsonencoded" "urlencoded" "--save"
+55 error cwd /Users/bwilhelm/proj/Node/sandbox
+56 error node -v v0.10.29
+57 error npm -v 1.4.14
+58 error code E404
+59 verbose exit [ 1, true ]
